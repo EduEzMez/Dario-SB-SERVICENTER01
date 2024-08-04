@@ -24,6 +24,18 @@ main{
             margin: 20px 0;
             text-shadow: 1px 1px 2px black;
         }
+        h2{
+            max-width: 80%;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            background-color: #fae20ac5;
+            padding: 20px;
+            border-radius: 30px;
+            @include aparecer;
+            margin: 20px 0;
+            text-shadow: 1px 1px 2px black;
+        }
         
     }
     
