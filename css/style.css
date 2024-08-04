@@ -313,7 +313,7 @@ main .contenedor__ubicacion {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 700px;
+  height: 600px;
   background-color: #212F3C;
   padding: 20px;
 }
@@ -370,7 +370,7 @@ main .contenedor__ventas {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-color: #2C3E50;
   padding: 20px;
 }
@@ -393,18 +393,13 @@ main .contenedor_imagenes {
   align-self: center;
   flex-direction: row;
 }
-main .contenedor_imagenes img {
-  margin: 10px 0;
-  max-width: 100%;
+main .contenedor_imagenes .tarjeta {
+  margin: 10px 4px;
+  width: 20%;
   height: auto;
   display: block;
-  border-radius: 10px 30px 10px 30px;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 2px 2px 3px black;
-}
-@media (min-width: 1024px) {
-  main .contenedor_imagenes img {
-    max-width: auto;
-  }
 }
 
 .contenedor__nosotros {
